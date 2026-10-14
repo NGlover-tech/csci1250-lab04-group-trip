@@ -92,7 +92,7 @@ static double PerPerson(double total, double people)
     return total / people;
 }
 
-//Method for calculating 
+//Method for calculating Cost for Fuel
 static double FuelCost(double miles, double milesPerGallon, double pricePerGallon)
 {
     double gallons = miles / milesPerGallon;
